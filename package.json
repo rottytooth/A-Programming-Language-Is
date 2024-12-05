@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-uglify": "^5.2.2"
+  },
+  "dependencies": {
+    "grunt-contrib-concat": "^2.1.0"
+  }
+}
