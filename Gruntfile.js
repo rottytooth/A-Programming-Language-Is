@@ -6,8 +6,8 @@ module.exports = function(grunt) {
         prod: {
             files: [{
                 compress: true,
-                src: ['src/proglang.js'],
-                dest: 'proglang_min.js'
+                src: ['src/bkmlt/program.js'],
+                dest: 'proglang.js'
             }]
         }
       },
@@ -16,8 +16,8 @@ module.exports = function(grunt) {
           separator: ''
         },
         dist: {
-          src: ['src/prepend.txt','src/searchstring.js','proglang_min.js','src/postpend.txt'],
-          dest: 'proglang_min.js'
+          src: ['src/bkmlt/prepend.txt','src/bkmlt/searchstring.js','proglang.js','src/bkmlt/postpend.txt'],
+          dest: 'proglang.js'
         }
       }
     });
