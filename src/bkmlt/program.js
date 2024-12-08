@@ -1,6 +1,6 @@
 document.getElementsByTagName("title")[0].innerText = searchstring;
 
-let regex = new RegExp(searchstring.replaceAll(" ","((<([^>]+)>)| )?"), "g");
+let regex = new RegExp(searchstring.replaceAll(" ","((<([^>]+)>)| )*"), "g");
 
 let marker = 'apl_dont_remove';
 

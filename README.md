@@ -14,10 +14,6 @@ More at the <a href="https://esolangs.org/wiki/A_programming_language_is_a_syste
 * `src/wiki_update/load_sentences_to_json.py`: loads sentences.json from Wikipedia
 * `newest_sentence_to_js.py`: updates bookmarklet with latest entry from sentences.json
 
-## Known Issues
-* Not all pages with valid programs lead to a readable script; this could probably be improved in how it selects the element to write to
-* Some entries in sentences.json include markup when they should not
-
 ## In Action
 ![](images/wikipedia.png)
 ![](images/dbpedia.png)
